@@ -1,0 +1,79 @@
+.mess {
+    width: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.mess-disp {
+    background-color: #dbdbdb54;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(68, 153, 233, 0.796);
+    min-height: 300px;
+    max-height: auto;
+}
+
+
+.dell{
+    cursor: pointer;
+    color: red;
+    width: 0;
+}
+
+
+
+.mess{
+    
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mess-header {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.mess-header span {
+    margin-left: 5px;
+}
+.mess-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.mess-input {
+    display: flex;
+}
+
+
+
+.mess-input input {
+    border: 1px solid #dbdbdb;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+    height: 30px;
+    outline: none;
+    width: 100%;
+}
+.mess-input button {
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    background-color: rgb(104, 104, 225);
+    font-weight: bold;
+    border: none;
+}
